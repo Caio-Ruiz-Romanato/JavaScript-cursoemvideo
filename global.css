@@ -1,0 +1,55 @@
+/* Reset das configurações pré-definidas pelo navegador */
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html {
+  --purple: #8749d7;
+  --background: #95d0e9ea;
+  --grey-dark: #4d5e77;
+  --overlay: #040911;
+}
+
+body {
+  height: 100vh;
+  background: var(--background);
+  font-family: "Titillium Web";
+}
+
+header {
+  color: var(--grey-dark);
+  text-align: center;
+  padding: 1rem;
+}
+
+section {
+  background: var(--purple);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  margin: auto;
+  box-shadow: 0.5rem 0.5rem 1rem var(--overlay);
+  width: 450px;
+}
+
+footer {
+  color: var(--overlay);
+  text-align: center;
+  font-style: italic;
+  padding: 1rem;
+}
+
+div {
+  text-align: center;
+  padding: 0.8rem;
+}
+
+#imagem {
+  border-radius: 2rem;
+  width: 100px;
+  height: 150px;
+  line-height: 100px;
+}
